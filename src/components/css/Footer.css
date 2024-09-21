@@ -1,0 +1,19 @@
+/* Import the Google font */
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+
+.font-glass-antiqua {
+  font-family: 'Glass Antiqua', cursive;
+}
+
+.bg-custom-blue {
+  background-color: #10027E;
+}
+
+.bg-custom-dark {
+  background-color: #0F0845;
+}
+
+/* Remove any extra margin/padding under the footer text */
+.mb-0 {
+  margin-bottom: 0;
+}

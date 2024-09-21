@@ -1,0 +1,66 @@
+.ib-science-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E7F2FA; /* Light blue background */
+    padding: 60px; /* More padding for the layout */
+    font-family: 'Arial', sans-serif; /* Font family, adjust to match exact style */
+    position: relative;
+  }
+  
+  .ib-science-section .content {
+    flex: 1;
+    text-align: left; /* Align text to the left */
+    margin-left: auto; /* Move content to the right */
+    max-width: 500px; /* Limit width for text block */
+  }
+  
+  .ib-science-section h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold;
+  }
+  
+  .ib-science-section p {
+    color: #1B288F; /* Dark blue color */
+    margin-bottom: 20px;
+    font-size: 16px; /* Font size adjusted */
+  }
+  
+  .ib-science-section button {
+    background-color: #F3813B; /* Orange button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .ib-science-section .decorative-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #F3813B; /* Orange color for left circle */
+    border-radius: 50%; /* Make it circular */
+    border: 10px solid #E7F2FA; /* Create 320-degree effect by using border */
+    transform: rotate(20deg); /* Rotate slightly */
+    position: absolute;
+  }
+  
+  .ib-science-section .left-icon {
+    left: 10px; /* Position to the left */
+    top: 50%;
+    transform: translateY(-50%) rotate(-20deg); /* Adjust rotation for left side */
+    border-top-color: transparent; /* Hide part of the circle to make it 320 degrees */
+    border-left-color: transparent; /* Hide part of the circle */
+  }
+  
+  .ib-science-section .right-icon {
+    right: 10px; /* Position to the right */
+    top: 50%;
+    transform: translateY(-50%) rotate(20deg); /* Adjust rotation for right side */
+    border-bottom-color: transparent; /* Hide part of the circle to make it 320 degrees */
+    border-right-color: transparent; /* Hide part of the circle */
+  }
+  
